@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PendulumMenu">
+        <attr name="speed" format="float"></attr><!--摆动因子-->
+        <attr name="speedduration" format="integer"></attr><!--摆动速度与摆动因子相关-->
+        <attr name="circlesize" format="dimension"></attr><!--子菜单圆图的大小-->
+        <attr name="stroke" format="dimension"></attr><!--线条长度-->
+        <attr name="strokesize" format="dimension"></attr><!--线条长度-->
+        <attr name="graph" format="enum"> <!--暂时未使用-->
+            <enum name="circle" value="0"></enum>
+            <enum name="square" value="1"></enum>
+        </attr>
+    </declare-styleable>
+    <attr name="PendulumMenuDefalut" format="reference"></attr>
+
+    <style name="PendulumMenuDefalutValues">
+        <item name="speedduration">20</item>
+        <item name="circlesize">50dp</item>
+        <item name="stroke">100dp</item>
+        <item name="strokesize">2dp</item>
+        <item name="graph">circle</item>
+    </style>
+</resources>
