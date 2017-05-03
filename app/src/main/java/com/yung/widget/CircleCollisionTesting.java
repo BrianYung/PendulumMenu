@@ -4,7 +4,7 @@ import android.util.SparseArray;
 
 /**
  * 碰撞检测
- * Created by Brian on 2017-04-17.
+ * Created by Brian on 2016-10-17.
  */
 
 public class CircleCollisionTesting {

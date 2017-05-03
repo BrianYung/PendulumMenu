@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="PendulumMenu">
-        <attr name="speed" format="float"></attr><!--摆动因子-->
+        <attr name="speed" format="float"></attr><!--摆动因子即为角度变化基本单位-->
         <attr name="speedduration" format="integer"></attr><!--摆动速度与摆动因子相关-->
         <attr name="circlesize" format="dimension"></attr><!--子菜单圆图的大小-->
         <attr name="stroke" format="dimension"></attr><!--线条长度-->

@@ -15,13 +15,14 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.util.SparseArray;
 import android.view.MotionEvent;
+import android.view.SurfaceView;
 import android.view.View;
 
 import java.util.Random;
 
 /**
  * 菜单功能界面
- * Created by Brian on 2017-04-14.
+ * Created by Brian on 2016-10-14.
  */
 
 public class PendulumMenu extends View {
